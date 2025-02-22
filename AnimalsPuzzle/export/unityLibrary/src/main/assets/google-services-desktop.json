@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "137286698651",
+    "firebase_url": "https://wooden-blocks.firebaseio.com",
+    "project_id": "wooden-blocks",
+    "storage_bucket": "wooden-blocks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137286698651:android:d55d4c5c425140f7",
+        "android_client_info": {
+          "package_name": "com.edubuzzkids.babywoodenblocks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137286698651-f63namg2fadpj1ks8ed0nsa00pumoq6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPyNF7U8EEmhv3R-efH4UBmG9amTlSBRU"
+        },
+        {
+          "current_key": "AIzaSyBu2b0Tl-lP3KPkP1wibaJqzgfRgR5rI4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137286698651:android:86f9bfe2f5486a84",
+        "android_client_info": {
+          "package_name": "com.edubuzzkids.alphabetwoodenblocks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137286698651-f63namg2fadpj1ks8ed0nsa00pumoq6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPyNF7U8EEmhv3R-efH4UBmG9amTlSBRU"
+        },
+        {
+          "current_key": "AIzaSyBu2b0Tl-lP3KPkP1wibaJqzgfRgR5rI4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137286698651:android:6bbadbba7e38285e",
+        "android_client_info": {
+          "package_name": "com.edubuzzkids.animalwoodenblocks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137286698651-f63namg2fadpj1ks8ed0nsa00pumoq6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPyNF7U8EEmhv3R-efH4UBmG9amTlSBRU"
+        },
+        {
+          "current_key": "AIzaSyBu2b0Tl-lP3KPkP1wibaJqzgfRgR5rI4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
