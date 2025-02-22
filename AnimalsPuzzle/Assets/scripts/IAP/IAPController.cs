@@ -30,7 +30,7 @@ public class IAPController : MonoBehaviour
 
 	private void Awake()
 	{
-		gameObject.GetComponent<Image>().enabled = false;
+		gameObject.GetComponent<Image>().enabled = true;
 		//transform.GetChild(0).gameObject.SetActive(false);
 
 	}
@@ -41,25 +41,31 @@ public class IAPController : MonoBehaviour
 
 	IEnumerator CheckRemoveAdsStatus()
 	{
-		while (removeAdsStatus == IAPStatus.UNKNOWN)
-		{
-			yield return new WaitForSeconds(1f);
-		}
+		/*		while (removeAdsStatus == IAPStatus.UNKNOWN)
+				{
+					yield return new WaitForSeconds(1f);
+				}
 
-		if (removeAdsStatus == IAPStatus.PURCHASED)
-		{
-			//gameObject.SetActive(false);
+				if (removeAdsStatus == IAPStatus.PURCHASED)
+				{
+					//gameObject.SetActive(false);
+					gameObject.GetComponent<Image>().enabled = false;
+					//transform.GetChild(0).GetComponent<Text>().enabled = false;
+					//transform.GetChild(0).gameObject.SetActive(false);
+				}
+				else if (removeAdsStatus == IAPStatus.NOT_PURCHASED)
+				{
+					//gameObject.SetActive(true);
+					gameObject.GetComponent<Image>().enabled = true;
+					//transform.GetChild(0).GetComponent<Text>().enabled = true;
+					//transform.GetChild(0).gameObject.SetActive(true);
+					iTween.ScaleFrom(gameObject, new Vector3(0.1f, 0.1f, 0.1f), 0.5f);
+				}*/
+
+		yield return new WaitForSeconds(0.1f);
+		if (PlayerPrefs.GetInt(IAP_STATUS_KEY) == (int)IAPStatus.PURCHASED)
+        {
 			gameObject.GetComponent<Image>().enabled = false;
-			//transform.GetChild(0).GetComponent<Text>().enabled = false;
-			//transform.GetChild(0).gameObject.SetActive(false);
-		}
-		else if (removeAdsStatus == IAPStatus.NOT_PURCHASED)
-		{
-			//gameObject.SetActive(true);
-			gameObject.GetComponent<Image>().enabled = true;
-			//transform.GetChild(0).GetComponent<Text>().enabled = true;
-			//transform.GetChild(0).gameObject.SetActive(true);
-			iTween.ScaleFrom(gameObject, new Vector3(0.1f, 0.1f, 0.1f), 0.5f);
 		}
 	}
 

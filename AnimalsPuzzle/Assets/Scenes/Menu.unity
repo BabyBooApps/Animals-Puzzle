@@ -460,6 +460,7 @@ MonoBehaviour:
   banner: {fileID: 861326095}
   interstitial: {fileID: 861326094}
   RewardAd: {fileID: 861326093}
+  IntertitialAds_Countdown: 2
 --- !u!4 &861326097
 Transform:
   m_ObjectHideFlags: 0
@@ -1449,6 +1450,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1747716088226910, guid: 9a0d14e9f9d2b3b49b487b650ba84eec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114015765642589868, guid: 9a0d14e9f9d2b3b49b487b650ba84eec,
         type: 3}
       propertyPath: m_FontData.m_Font
@@ -2035,6 +2040,11 @@ PrefabInstance:
       propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114146178189950600, guid: ecfed639e2d164243a9786afdbba5c59,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114253212521000352, guid: ecfed639e2d164243a9786afdbba5c59,
         type: 3}
       propertyPath: m_Type
@@ -2044,7 +2054,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3ed5c5f6afd6ce548a3129ed4c235279,
+      objectReference: {fileID: 21300000, guid: b078c40f2cdbd73429ac0b54f06c6d38,
         type: 3}
     - target: {fileID: 114253212521000352, guid: ecfed639e2d164243a9786afdbba5c59,
         type: 3}
@@ -2056,6 +2066,11 @@ PrefabInstance:
       propertyPath: parentalControlDialog
       value: 
       objectReference: {fileID: 1759241029}
+    - target: {fileID: 114943528497586274, guid: ecfed639e2d164243a9786afdbba5c59,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114943528497586274, guid: ecfed639e2d164243a9786afdbba5c59,
         type: 3}
       propertyPath: uGuiElement
@@ -2230,8 +2245,8 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 2085063331}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_GameObject: {fileID: 2085063335}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d0c34c165db7254b845baeddfd6e370, type: 3}
   m_Name: 
@@ -2242,12 +2257,69 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 2085063331}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2085063335}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74c1f865effe69f4e8319f5ab79009e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2085063335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1085693073042406, guid: ecfed639e2d164243a9786afdbba5c59,
+    type: 3}
+  m_PrefabInstance: {fileID: 2085063331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2085063336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085063335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productId: removeads
+  buttonType: 0
+  consumePurchase: 1
+  onTransactionsRestored:
+    m_PersistentCalls:
+      m_Calls: []
+  onPurchaseComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2085063334}
+        m_TargetAssemblyTypeName: IAPController, Assembly-CSharp
+        m_MethodName: Fulfill
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPurchaseFailed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2085063334}
+        m_TargetAssemblyTypeName: IAPController, Assembly-CSharp
+        m_MethodName: NotFulfilled
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  titleText: {fileID: 0}
+  descriptionText: {fileID: 0}
+  priceText: {fileID: 0}
 --- !u!1001 &2090272969
 PrefabInstance:
   m_ObjectHideFlags: 0
