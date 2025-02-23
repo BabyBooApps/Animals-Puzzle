@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C38CD841-CB39-7AB3-49C1-531FC8A48C2D}</ProjectGuid>
+    <ProjectGuid>{DAA17F81-940A-98F9-0FFA-68320F9B1DEE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.WinRTStub</AssemblyName>
@@ -750,16 +750,16 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.WinRTCore.csproj">
-      <Project>{1DD86ABE-4C57-0BE3-3BDE-EDFA84E860C6}</Project>
+      <Project>{54E3B28D-3575-1FDD-BFC4-DE09D7283ACC}</Project>
       <Name>UnityEngine.Purchasing.WinRTCore</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2C7DDC50-653C-FD62-8A6C-5724214C4500}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C2B48B8C-6ABC-DADA-E0B6-68ADEFBEF58C}</Project>
+      <Project>{DCF4D8CE-9950-A787-FC4A-B250A9034477}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{D347650C-C2B8-407C-08D1-915AD07D871E}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9C57EEA9-1A1F-0125-4D1D-C8BF288F675F}</ProjectGuid>
+    <ProjectGuid>{0042B2C2-9050-2383-51F1-C2A330BE6D4E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.WinRTCore</AssemblyName>
@@ -661,7 +661,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A87B2C7B-7490-D42E-3804-27F8FE4421F7}</Project>
+      <Project>{177C297F-D5DA-7487-855B-B1C90C713A65}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

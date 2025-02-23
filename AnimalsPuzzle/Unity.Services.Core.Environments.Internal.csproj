@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F285DD4E-EA8E-AD58-EF1F-20D7B452F40B}</ProjectGuid>
+    <ProjectGuid>{0D674CE5-11B7-0DA0-74B6-605AC99184BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Environments.Internal</AssemblyName>
@@ -750,16 +750,16 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{16211ACE-C0AE-EC33-6D65-468A18EDD80F}</Project>
+      <Project>{D93E0F82-5C32-A9C8-EC1A-03F4FB7AD697}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2C7DDC50-653C-FD62-8A6C-5724214C4500}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C2B48B8C-6ABC-DADA-E0B6-68ADEFBEF58C}</Project>
+      <Project>{DCF4D8CE-9950-A787-FC4A-B250A9034477}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{D347650C-C2B8-407C-08D1-915AD07D871E}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

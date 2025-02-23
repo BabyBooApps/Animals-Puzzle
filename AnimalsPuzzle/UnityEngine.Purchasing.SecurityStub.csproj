@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5A448CBD-DF08-22DE-90B3-0FC61F993420}</ProjectGuid>
+    <ProjectGuid>{55B4179C-E808-285D-A3B0-F6381D64E83C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.SecurityStub</AssemblyName>
@@ -753,16 +753,16 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
-      <Project>{5AC79621-40C2-FD01-7B84-1E3B1A2BE586}</Project>
+      <Project>{51F0B1BF-5C83-3AA5-4052-16880068B902}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2C7DDC50-653C-FD62-8A6C-5724214C4500}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C2B48B8C-6ABC-DADA-E0B6-68ADEFBEF58C}</Project>
+      <Project>{DCF4D8CE-9950-A787-FC4A-B250A9034477}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{D347650C-C2B8-407C-08D1-915AD07D871E}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

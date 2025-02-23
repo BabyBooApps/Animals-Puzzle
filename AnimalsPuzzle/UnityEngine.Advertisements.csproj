@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{39924B0F-B73F-CB1D-997C-2235E1E40CA2}</ProjectGuid>
+    <ProjectGuid>{62B56D6A-9FF8-9F96-212F-CAF4C62B3B91}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Advertisements</AssemblyName>
@@ -802,11 +802,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C2B48B8C-6ABC-DADA-E0B6-68ADEFBEF58C}</Project>
+      <Project>{DCF4D8CE-9950-A787-FC4A-B250A9034477}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2C7DDC50-653C-FD62-8A6C-5724214C4500}</Project>
+      <Project>{D347650C-C2B8-407C-08D1-915AD07D871E}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>

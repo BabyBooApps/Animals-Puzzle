@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{78835CCE-FA91-6964-6E3E-2CFD3C89524A}</ProjectGuid>
+    <ProjectGuid>{F4D2DBA1-B825-C16C-85C2-EC6A5061ABB6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Telemetry</AssemblyName>
@@ -757,20 +757,20 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{3AA90516-CCB4-6B7C-99A0-8BBA6C75B449}</Project>
+      <Project>{603601B2-BBE6-6BC7-2609-02430F86CAF5}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{16211ACE-C0AE-EC33-6D65-468A18EDD80F}</Project>
+      <Project>{D93E0F82-5C32-A9C8-EC1A-03F4FB7AD697}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2C7DDC50-653C-FD62-8A6C-5724214C4500}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C2B48B8C-6ABC-DADA-E0B6-68ADEFBEF58C}</Project>
+      <Project>{DCF4D8CE-9950-A787-FC4A-B250A9034477}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{D347650C-C2B8-407C-08D1-915AD07D871E}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

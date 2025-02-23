@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E50A1E84-6307-D17E-1B65-3747B958329C}</ProjectGuid>
+    <ProjectGuid>{84A7D0B4-4B6E-9A1A-7FB2-87818E61AFAE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Advertisements</AssemblyName>
@@ -712,7 +712,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A87B2C7B-7490-D42E-3804-27F8FE4421F7}</Project>
+      <Project>{177C297F-D5DA-7487-855B-B1C90C713A65}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

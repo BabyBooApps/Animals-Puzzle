@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{93960023-6D55-B0E9-274F-0B58C35ECECF}</ProjectGuid>
+    <ProjectGuid>{94554ED6-6752-E2A3-0B66-00BDEA33D9E3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.Codeless</AssemblyName>
@@ -667,19 +667,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{BA70522A-AEB5-0F24-5ABA-542EEE25B376}</Project>
+      <Project>{2724FE84-3035-9896-07BC-09DC9899156A}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Player.csproj">
-      <Project>{3820D437-4D84-DE9C-30F8-E9563CD7BB35}</Project>
+      <Project>{EF5DFD02-9AA2-8F6E-C85C-7AA0C2697DDF}</Project>
       <Name>UnityEngine.Purchasing.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.Player.csproj">
-      <Project>{569C9D82-18F3-06F7-ACDE-11CEF46E285D}</Project>
+      <Project>{AC4D4C5D-FE65-EB66-D08B-A82F697ED39A}</Project>
       <Name>UnityEngine.Purchasing.Stores.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A87B2C7B-7490-D42E-3804-27F8FE4421F7}</Project>
+      <Project>{177C297F-D5DA-7487-855B-B1C90C713A65}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

@@ -4,6 +4,7 @@ using UnityEngine;
 using GoogleMobileAds;
 using GoogleMobileAds.Api;
 using System;
+using static IAPController;
 
 public class AdsManager : MonoBehaviour
 {
@@ -30,9 +31,14 @@ public class AdsManager : MonoBehaviour
         // Initialize the Google Mobile Ads SDK.
         MobileAds.Initialize(initStatus => { });
 
-        interstitial.LoadAd();
-        banner.LoadAd();
-        RewardAd.LoadAd();
+        if (PlayerPrefs.GetInt(IAP_STATUS_KEY) != (int)IAPStatus.PURCHASED)
+        {
+           
+            interstitial.LoadAd();
+            banner.LoadAd();
+            RewardAd.LoadAd();
+        }
+        
 
        /* MobileAds.Initialize((InitializationStatus initStatus) =>
         {

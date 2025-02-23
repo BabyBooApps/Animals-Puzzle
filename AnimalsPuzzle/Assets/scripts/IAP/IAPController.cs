@@ -78,6 +78,8 @@ public class IAPController : MonoBehaviour
 
 		PlayerPrefs.SetInt(IAP_STATUS_KEY, (int)IAPStatus.PURCHASED);
 
+		AdsManager.Instance.banner.DestroyAd();
+
 		/*try
 		{
 			GameObject adObject = GameObject.Find("AdObject");

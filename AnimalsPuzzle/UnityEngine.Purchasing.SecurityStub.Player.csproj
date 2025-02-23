@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6479EF44-E478-1C54-B4DC-48DC80F4EF37}</ProjectGuid>
+    <ProjectGuid>{59900D29-AD93-27B0-0721-A565C00AD7E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.SecurityStub</AssemblyName>
@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\SecurityStub\CrossPlatformValidator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\SecurityStub\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\SecurityStub\Obfuscator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\SecurityStub\AppleValidator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\SecurityStub\GooglePlayReceipt.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.2\Runtime\SecurityStub\CrossPlatformValidator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.2\Runtime\SecurityStub\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.2\Runtime\SecurityStub\Obfuscator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.2\Runtime\SecurityStub\AppleValidator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.12.2\Runtime\SecurityStub\GooglePlayReceipt.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.purchasing@4.9.3\Runtime\SecurityStub\UnityEngine.Purchasing.SecurityStub.asmdef" />
+    <None Include="Library\PackageCache\com.unity.purchasing@4.12.2\Runtime\SecurityStub\UnityEngine.Purchasing.SecurityStub.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -267,50 +267,35 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="winrt">
-      <HintPath>Assets\Plugins\UnityPurchasing\winrt\winrt.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Compat">
-      <HintPath>Assets\Parse\Plugins\Unity.Compat.dll</HintPath>
+    <Reference Include="GoogleMobileAds">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
     </Reference>
     <Reference Include="UDP">
       <HintPath>Assets\Plugins\UDP\UDP.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Tasks">
-      <HintPath>Assets\Parse\Plugins\Unity.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityStore">
-      <HintPath>Assets\Plugins\UnityChannel\UnityStore.dll</HintPath>
-    </Reference>
-    <Reference Include="Apple">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Apple\Apple.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Purchasing.Common">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Purchasing.Common.dll</HintPath>
+    <Reference Include="GoogleMobileAds.Core">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
     </Reference>
-    <Reference Include="ChannelPurchase">
-      <HintPath>Assets\Plugins\UnityChannel\ChannelPurchase.dll</HintPath>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="GoogleMobileAds.Common">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
     </Reference>
-    <Reference Include="FacebookStore">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Facebook\FacebookStore.dll</HintPath>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
     </Reference>
-    <Reference Include="Security">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Security\live\Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Stores">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Stores.dll</HintPath>
-    </Reference>
-    <Reference Include="Tizen">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Tizen\Tizen.dll</HintPath>
+    <Reference Include="GoogleMobileAds.Ump">
+      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Ump.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -681,11 +666,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.Player.csproj">
-      <Project>{E7EF4E4B-1A93-5852-9D9C-D5CC858FE152}</Project>
+      <Project>{D19B2CB2-7605-C223-406C-AEBB27D66832}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A87B2C7B-7490-D42E-3804-27F8FE4421F7}</Project>
+      <Project>{177C297F-D5DA-7487-855B-B1C90C713A65}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

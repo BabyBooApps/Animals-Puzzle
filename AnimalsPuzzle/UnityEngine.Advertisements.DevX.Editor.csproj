@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8E806E54-FFDC-B943-875D-510C5B079CB1}</ProjectGuid>
+    <ProjectGuid>{E110CD04-4D09-A163-2202-76CBD99BC48E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Advertisements.DevX.Editor</AssemblyName>
@@ -723,27 +723,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{3AA90516-CCB4-6B7C-99A0-8BBA6C75B449}</Project>
+      <Project>{603601B2-BBE6-6BC7-2609-02430F86CAF5}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Editor.csproj">
-      <Project>{A3FE3EC1-0CC5-AFFA-E06F-4D436C01CB41}</Project>
+      <Project>{CAB03FA9-1F9D-8A16-D4CB-B2FB77EA8F95}</Project>
       <Name>Unity.Services.Core.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2C7DDC50-653C-FD62-8A6C-5724214C4500}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C2B48B8C-6ABC-DADA-E0B6-68ADEFBEF58C}</Project>
+      <Project>{DCF4D8CE-9950-A787-FC4A-B250A9034477}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{D347650C-C2B8-407C-08D1-915AD07D871E}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{26BEB1C4-646D-B446-DFC7-D0D573343B1B}</Project>
+      <Project>{4D2071DE-5CA9-68A2-020E-4CF78135A543}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{60664451-16E9-1568-FDB4-2928F11D3D12}</Project>
+      <Project>{F5D32DF6-3EC0-BF9B-D929-E77342184212}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

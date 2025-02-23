@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3820D437-4D84-DE9C-30F8-E9563CD7BB35}</ProjectGuid>
+    <ProjectGuid>{EF5DFD02-9AA2-8F6E-C85C-7AA0C2697DDF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing</AssemblyName>
@@ -734,23 +734,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{C46F3112-9778-31CC-1EAF-2A8037C121A5}</Project>
+      <Project>{00F763C9-5EF7-E82B-4F77-021F1F44B841}</Project>
       <Name>Purchasing.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{BA70522A-AEB5-0F24-5ABA-542EEE25B376}</Project>
+      <Project>{2724FE84-3035-9896-07BC-09DC9899156A}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{F4E5EBC5-714F-1A55-512D-56E56A0BAB60}</Project>
+      <Project>{506B99EF-B0A2-3CA4-39E4-B8D52CEB8215}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.Player.csproj">
-      <Project>{19897B53-A38A-5299-DC58-61645FDCC713}</Project>
+      <Project>{F37BEB81-414D-3DDF-6C43-3045C9581D35}</Project>
       <Name>Unity.Services.Core.Internal.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{A87B2C7B-7490-D42E-3804-27F8FE4421F7}</Project>
+      <Project>{177C297F-D5DA-7487-855B-B1C90C713A65}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

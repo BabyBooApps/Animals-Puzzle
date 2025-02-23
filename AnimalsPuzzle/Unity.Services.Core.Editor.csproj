@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A3FE3EC1-0CC5-AFFA-E06F-4D436C01CB41}</ProjectGuid>
+    <ProjectGuid>{CAB03FA9-1F9D-8A16-D4CB-B2FB77EA8F95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Editor</AssemblyName>
@@ -912,55 +912,55 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{3AA90516-CCB4-6B7C-99A0-8BBA6C75B449}</Project>
+      <Project>{603601B2-BBE6-6BC7-2609-02430F86CAF5}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Networking.csproj">
-      <Project>{8CDEF0E3-DAFE-C17C-B5C4-C98BA211DBC3}</Project>
+      <Project>{44528DD6-7BFD-425F-AE1B-F74E1DAD6101}</Project>
       <Name>Unity.Services.Core.Networking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{16211ACE-C0AE-EC33-6D65-468A18EDD80F}</Project>
+      <Project>{D93E0F82-5C32-A9C8-EC1A-03F4FB7AD697}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Scheduler.csproj">
-      <Project>{633E0C44-41F5-7662-DBF7-3BEA232937FD}</Project>
+      <Project>{C02FF104-3181-5E41-D2D6-F79875BA379B}</Project>
       <Name>Unity.Services.Core.Scheduler</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Configuration.csproj">
-      <Project>{489A6375-4B8B-60B1-70F1-822CE80E6D6D}</Project>
+      <Project>{C8D4AA29-DF7B-3460-8A16-4046F488DCCE}</Project>
       <Name>Unity.Services.Core.Configuration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Configuration.Editor.csproj">
-      <Project>{2F213FE2-240C-6403-C28E-63C413300785}</Project>
+      <Project>{A2ED10B6-80D6-C5AC-4757-A36B98494F60}</Project>
       <Name>Unity.Services.Core.Configuration.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Telemetry.csproj">
-      <Project>{78835CCE-FA91-6964-6E3E-2CFD3C89524A}</Project>
+      <Project>{F4D2DBA1-B825-C16C-85C2-EC6A5061ABB6}</Project>
       <Name>Unity.Services.Core.Telemetry</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Registration.csproj">
-      <Project>{434CA764-F16F-27EA-DAF3-F4D2827720DC}</Project>
+      <Project>{53A556AE-B401-1503-9ACC-240BF47DA449}</Project>
       <Name>Unity.Services.Core.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{B87F8F2F-1E17-28D5-11EA-A44A2EC3F8C8}</Project>
+      <Project>{6AD714C2-1AC0-8A44-064E-D759FC4B6CAF}</Project>
       <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2C7DDC50-653C-FD62-8A6C-5724214C4500}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C2B48B8C-6ABC-DADA-E0B6-68ADEFBEF58C}</Project>
+      <Project>{DCF4D8CE-9950-A787-FC4A-B250A9034477}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{D347650C-C2B8-407C-08D1-915AD07D871E}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{26BEB1C4-646D-B446-DFC7-D0D573343B1B}</Project>
+      <Project>{4D2071DE-5CA9-68A2-020E-4CF78135A543}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{60664451-16E9-1568-FDB4-2928F11D3D12}</Project>
+      <Project>{F5D32DF6-3EC0-BF9B-D929-E77342184212}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

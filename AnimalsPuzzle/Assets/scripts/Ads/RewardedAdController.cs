@@ -14,7 +14,7 @@ using GoogleMobileAds.Api;
         // These ad units are configured to always serve test ads.
 #if UNITY_ANDROID
         //private const string _adUnitId = "ca-app-pub-3940256099942544/5224354917"; // Test Ads
-        private const string _adUnitId = "ca-app-pub-6727597482466175/7828149478";
+        private const string _adUnitId = "ca-app-pub-6727597482466175/4830748753";
 #elif UNITY_IPHONE
         private const string _adUnitId = "ca-app-pub-3940256099942544/1712485313";
 #else

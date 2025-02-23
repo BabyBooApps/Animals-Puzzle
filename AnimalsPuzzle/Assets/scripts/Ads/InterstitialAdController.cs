@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using GoogleMobileAds.Api;
+using static IAPController;
 
 
 public class InterstitialAdController : MonoBehaviour
@@ -12,8 +13,8 @@ public class InterstitialAdController : MonoBehaviour
 
     // These ad units are configured to always serve test ads.
 #if UNITY_ANDROID
-    private const string _adUnitId = "ca-app-pub-3940256099942544/1033173712"; // Test Ads
-    //private const string _adUnitId = "ca-app-pub-6727597482466175/2767394488";
+    //private const string _adUnitId = "ca-app-pub-3940256099942544/1033173712"; // Test Ads
+    private const string _adUnitId = "ca-app-pub-6727597482466175/6143830422";
 #elif UNITY_IPHONE
         private const string _adUnitId = "ca-app-pub-3940256099942544/4411468910";
 #else
@@ -28,7 +29,10 @@ public class InterstitialAdController : MonoBehaviour
     public void LoadAd()
     {
 
-
+        if (PlayerPrefs.GetInt(IAP_STATUS_KEY) == (int)IAPStatus.PURCHASED)
+        {
+            return;
+        }
 
         // Clean up the old ad before loading a new one.
         if (_interstitialAd != null)
@@ -75,12 +79,17 @@ public class InterstitialAdController : MonoBehaviour
     /// </summary>
     public void ShowAd()
     {
-        /*if (PlayerPrefs_Manager.Instance.GetNoAdsStatus())
+
+        if (PlayerPrefs.GetInt(IAP_STATUS_KEY) == (int)IAPStatus.PURCHASED)
         {
             return;
-        }*/
+        }
+            /*if (PlayerPrefs_Manager.Instance.GetNoAdsStatus())
+            {
+                return;
+            }*/
 
-        if (_interstitialAd != null && _interstitialAd.CanShowAd())
+            if (_interstitialAd != null && _interstitialAd.CanShowAd())
         {
             Debug.Log("Showing interstitial ad.");
             _interstitialAd.Show();

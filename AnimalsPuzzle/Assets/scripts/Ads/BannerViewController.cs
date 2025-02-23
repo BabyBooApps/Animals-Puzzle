@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using GoogleMobileAds.Api;
+using static IAPController;
 public class BannerViewController : MonoBehaviour
 {
     /// <summary>
@@ -10,8 +11,8 @@ public class BannerViewController : MonoBehaviour
 
     // These ad units are configured to always serve test ads.
 #if UNITY_ANDROID
-    private const string _adUnitId = "ca-app-pub-3940256099942544/6300978111"; //Test Ads
-   // private const string _adUnitId = "ca-app-pub-6727597482466175/4594647327";
+    //private const string _adUnitId = "ca-app-pub-3940256099942544/6300978111"; //Test Ads
+     private const string _adUnitId = "ca-app-pub-6727597482466175/7456912094"; //
 #elif UNITY_IPHONE
         private const string _adUnitId = "ca-app-pub-3940256099942544/2934735716";
 #else
@@ -71,6 +72,10 @@ public class BannerViewController : MonoBehaviour
     /// </summary>
     public void LoadAd()
     {
+        if (PlayerPrefs.GetInt(IAP_STATUS_KEY) == (int)IAPStatus.PURCHASED)
+        {
+            return;
+        }
         /*if (PlayerPrefs_Manager.Instance.GetNoAdsStatus())
         {
             return;
@@ -94,6 +99,10 @@ public class BannerViewController : MonoBehaviour
     /// </summary>
     public void ShowAd()
     {
+        if (PlayerPrefs.GetInt(IAP_STATUS_KEY) == (int)IAPStatus.PURCHASED)
+        {
+            return;
+        }
         /*if (PlayerPrefs_Manager.Instance.GetNoAdsStatus())
         {
             return;
